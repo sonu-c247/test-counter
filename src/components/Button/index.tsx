@@ -10,8 +10,8 @@ import {
 } from "styled-system";
 
 interface ButtonProps {
-  onClick: any;
-  children: any;
+  onClick: () => void;
+  children: React.ReactNode;
 }
 
 interface ButtonProps
@@ -24,9 +24,16 @@ interface ButtonProps
 
 const Button: React.FC<ButtonProps> = ({ onClick, children }) => {
   return (
-    <StyleButton fontFamily="Inter, sans-serif" bg="#fff" fontSize="24px" fontWeight="700"
-    width="160px" borderRadius={50} padding="12px"
-    onClick={onClick}>
+    <StyleButton
+      fontFamily="Inter, sans-serif"
+      bg="#fff"
+      fontSize="24px"
+      fontWeight="700"
+      width="160px"
+      borderRadius={50}
+      padding="12px"
+      onClick={onClick}
+    >
       {children}
     </StyleButton>
   );
