@@ -12,7 +12,7 @@ import {
   FlexboxProps,
 } from "styled-system";
 import { incrementCounter, decrementCounter } from "../store/counterSlice";
-import Button from './Button'
+import Button from '../components/Button'
 interface WrapperProps extends ColorProps, FlexboxProps, LayoutProps {}
 
 const Wrapper = styled.div<WrapperProps>`
