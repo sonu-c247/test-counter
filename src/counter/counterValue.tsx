@@ -24,7 +24,7 @@ const Counter = styled.div<CounterProps>`
 
 const CounterValue: React.FC<CounterValueProps> = ({ count }) => {
   return (
-    <Counter color="#8cd6bd" fontSize="64px" fontWeight="700" my="90px">
+    <Counter color="green" fontSize="64px" fontWeight="700" my="90px">
       {count}
     </Counter>
   );

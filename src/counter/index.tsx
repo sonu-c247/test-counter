@@ -27,8 +27,8 @@ const Counter = () => {
 
   return (
     <Wrapper
-      bg="#004761"
-      color="#000"
+      bg="astronautBlue"
+      color="black"
       alignItems="center"
       justifyContent="center"
       display={"flex"}

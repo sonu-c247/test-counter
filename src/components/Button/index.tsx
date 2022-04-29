@@ -26,7 +26,7 @@ const Button: React.FC<ButtonProps> = ({ onClick, children }) => {
   return (
     <StyleButton
       fontFamily="Inter, sans-serif"
-      bg="#fff"
+      bg="white"
       fontSize="24px"
       fontWeight="700"
       width="160px"
